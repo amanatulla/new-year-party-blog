@@ -195,3 +195,78 @@
 .section-three button:hover {
     text-transform: uppercase;
 }
+
+/* --------Section Four Best Offer-------- */
+
+
+.section-four {}
+
+.section-four-flex {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 120px;
+}
+
+.section-four-first {}
+
+.section-four-first h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 104px;
+}
+
+.section-four-first h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.section-four-first p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    margin-top: 22px;
+}
+
+.section-four-ellipse {
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+      
+}
+
+.section-four-img {
+    padding: 49.08px;
+        
+}
+    
+
+
+
+.section-four-2024 h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 112px;
+
+}
+
+.section-four-2024 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+    margin: 16px 0 43px 0;
+}
