@@ -198,17 +198,12 @@
 
 /* --------Section Four Best Offer-------- */
 
-
-.section-four {}
-
 .section-four-flex {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
     margin-top: 120px;
 }
-
-.section-four-first {}
 
 .section-four-first h5 {
     color: #F00;
@@ -241,16 +236,11 @@
     height: 463px;
     border-radius: 463px;
     border: 15px solid #F00;
-      
 }
 
 .section-four-img {
     padding: 49.08px;
-        
 }
-    
-
-
 
 .section-four-2024 h3 {
     color: #F00;
@@ -258,7 +248,6 @@
     font-size: 48px;
     font-weight: 700;
     margin-top: 112px;
-
 }
 
 .section-four-2024 p {
@@ -269,4 +258,43 @@
     line-height: 32px;
     width: 276px;
     margin: 16px 0 43px 0;
+}
+
+/* --------Section Five Holidays Sale-------- */
+
+
+
+/* --------Section Six Best Gift-------- */
+
+.section-five-title h6 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120.07px;
+}
+
+.section-five-title h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.section-five-title p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-top: 22px;
+}
+
+.section-five-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 48px;
 }
