@@ -1,10 +1,10 @@
 /* Universal Class */
-*{
+* {
     margin: 0%;
     padding: 0;
 }
 
-.container{
+.container {
     width: 82%;
     max-width: 1320px;
     margin: 0 auto;
@@ -13,19 +13,19 @@
 
 /* --------Header Section Style-------- */
 
-.banner{
+.banner {
     background-image: url('../images/banner/Banner\ Image.png');
     width: 1320px;
     height: 600px;
     margin-top: 50px;
 }
 
-.background{
+.background {
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 
-.banner h5{
+.banner h5 {
     color: #FFF;
     font-family: Merriweather;
     font-size: 32px;
@@ -35,7 +35,7 @@
     padding: 177px 0 16px 530px;
 }
 
-.banner h3{
+.banner h3 {
     width: 632px;
     color: #FFF;
     text-align: center;
@@ -47,7 +47,9 @@
     margin: 0 auto;
 }
 
-.section-one h1{
+/* --------Section-One 65% OFF-------- */
+
+.section-one h1 {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -58,7 +60,7 @@
     margin-top: 120px;
 }
 
-.section-one h6{
+.section-one h6 {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -69,7 +71,7 @@
     margin-top: 48px;
 }
 
-.section-one h4{
+.section-one h4 {
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -80,10 +82,70 @@
     margin-top: 16px;
 }
 
-.section-one img{
+.section-one img {
     width: 802.9px;
     height: 500px;
     display: block;
-    margin: 48px auto 0 auto;    
+    margin: 48px auto 0 auto;
 }
 
+/* --------Section Two Midnight Party--------*/
+
+.section-two{
+    background-image: url('../images/banner/Vectorrr.png');
+    height: 600px;
+    margin-top: 120px;
+}
+
+.sec-two-back{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    height: 600px;
+    border-radius: 16px;
+}
+
+.sec-two-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-two-back h3{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    padding: 126px 0 0 126px;
+}
+
+.sec-two-back p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    padding: 24px 0 0 126px;
+}
+
+.sec-two-back button{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 48px 0 0 158px;
+    border: none;
+    background: none;
+}
+
+.section-two button:hover{
+    color: #FF0B08;
+}
+
+.pic-2024{
+    width: 319.83px;
+    height: 464.662px;
+    padding: 68.11px 138px 0 0;
+}
