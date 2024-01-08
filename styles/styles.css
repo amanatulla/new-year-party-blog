@@ -1,13 +1,17 @@
 /* Universal Class */
 * {
     margin: 0%;
-    padding: 0;
+    padding: 0%;
 }
 
 .container {
     width: 82%;
     max-width: 1320px;
     margin: 0 auto 120px auto;
+}
+
+.texthover:hover {
+    text-transform: capitalize;
 }
 
 
@@ -67,7 +71,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-top: 48px;
+    margin: 48px auto 0 auto;
 }
 
 .section-one h4 {
@@ -125,22 +129,23 @@
     font-weight: 400;
     line-height: 30px;
     width: 697px;
-    padding: 24px 0 0 126px;
+    padding: 24px 0 48px 126px;
 }
 
-.sec-two-back button {
-    color: #FFF;
+#alink{ 
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    text-transform: uppercase;
     margin: 48px 0 0 158px;
-    border: none;
-    background: none;
+    color: #FFF;
+    text-decoration: none;
+    
 }
 
-.section-two button:hover {
+#alink:hover {
+    text-transform: uppercase; 
     color: #FF0B08;
+
 }
 
 .pic-2024 {
@@ -159,18 +164,18 @@
 }
 
 .section-three p {
+    text-align: center;
     color: #070211;
     font-family: Inter;
     font-size: 32px;
-    font-style: normal;
+    text-align: center;
     font-weight: 600;
     line-height: 56px;
-    padding: 100px 386px 0 385px;
+    padding: 100px 385.5px 0 385.5px;
 }
 
-.section-three div span {
+.section-three span {
     color: #F00;
-    text-align: center;
     font-family: Inter;
     font-size: 32px;
     font-weight: 600;
@@ -178,16 +183,22 @@
 }
 
 .section-three button {
-    color: #FFF;
+    width: 167px;
+    height: 56px;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    padding: 16px 32px;
     border-radius: 8px;
     border: none;
     background: #F00;
     margin: 48px 577px 0 576px;
+}
+
+.section-three a {
+    color: #FFF;
+    text-decoration: none;
+    
 }
 
 .section-three button:hover {
@@ -344,7 +355,6 @@
     margin: 22px auto 0 auto;
 }
 
-
 input[type=text] {
     width: 438px;
     height: 72px;
@@ -383,55 +393,85 @@ input[type=submit]:hover {
 }
 
 
+/* --------Footer Section--------*/
 
-
-
-
-
-
-.email-add {
-    background: #FFF;
-    border: none;
-    border-radius: 50px 0px 0px 50px;
-    color: rgba(7, 2, 17, 0.30);
-    text-align: left;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    padding: 25px 432px 25px 30px;
-    margin-top: 48px;
+footer {
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+    background: #070211;
+    margin: 0 auto;
 }
 
-.email-sub {
-    border-radius: 0px 50px 50px 0px;
-    background: #F00;
-    border: none;
-    padding: 24px 56px;
+.footer-contact h6 {
+    width: 375px;
     color: #FFF;
-    text-align: center;
     font-family: Inter;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 48px;
-
-
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
 }
 
-.submit {
-    border-radius: 0px 50px 50px 0px;
-    background: #F00;
-    border: none;
-    padding: 24px 56px;
+.footer-contact p {
+    width: 375px;
     color: #FFF;
-    text-align: center;
     font-family: Inter;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 48px;
-    bottom: unset;
-    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
 }
 
-.subscribe-button button:hover {
-    text-transform: capitalize;
+hr {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    margin: 0 auto;
+}
+
+/* --------Footer Section Contact Details-------*/
+
+.footer-contact-flex {
+    display: flex;
+}
+
+.footer-contact-flex p {
+    padding: 120px 0 50px 140px;
+}
+
+#contact {
+    padding: 120px 0px 50px 559px;
+
+}
+
+/* --------Footer Section Social Icon-------- */
+
+.footer-section-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px auto;
+    gap: 24px;
+}
+
+.footer-section-icon img:hover {
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    box-shadow: #474646 0px 0px 30px 10px;
+    cursor: pointer;
+}
+
+/* --------Footer Section Copyright-------- */
+
+.footer-section-copyright {
+    display: flex;
+}
+
+#copyright {
+    padding: 50px 0px 0px 140px;
+}
+
+#unsubscribe {
+    padding: 50px 0px 0px 800px;
 }
