@@ -10,13 +10,7 @@
     margin: 0 auto 120px auto;
 }
 
-.texthover:hover {
-    text-transform: capitalize;
-}
-
-
 /* --------Header Section Style-------- */
-
 .banner {
     background-image: url('../images/banner/Banner\ Image.png');
     width: 1320px;
@@ -33,9 +27,7 @@
     color: #FFF;
     font-family: Merriweather;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     padding: 177px 0 16px 530px;
 }
 
@@ -45,22 +37,18 @@
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
     line-height: 95px;
     margin: 0 auto;
 }
 
 /* --------Section-One 65% OFF-------- */
-
 .section-one h1 {
     color: #F00;
     text-align: center;
     font-family: Inter;
     font-size: 88px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .section-one h6 {
@@ -68,9 +56,7 @@
     text-align: center;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     margin: 48px auto 0 auto;
 }
 
@@ -79,9 +65,7 @@
     text-align: center;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin-top: 16px;
 }
 
@@ -93,7 +77,6 @@
 }
 
 /* --------Section Two Midnight Party--------*/
-
 .section-two {
     background-image: url('../images/banner/Vectorrr.png');
     width: 1320px;
@@ -132,20 +115,18 @@
     padding: 24px 0 48px 126px;
 }
 
-#alink{ 
+#alink {
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     margin: 48px 0 0 158px;
     color: #FFF;
     text-decoration: none;
-    
 }
 
 #alink:hover {
-    text-transform: uppercase; 
+    text-transform: uppercase;
     color: #FF0B08;
-
 }
 
 .pic-2024 {
@@ -155,7 +136,6 @@
 }
 
 /* --------Section Three Party Place-------- */
-
 .section-three {
     width: 1320px;
     height: 482px;
@@ -198,7 +178,6 @@
 .section-three a {
     color: #FFF;
     text-decoration: none;
-    
 }
 
 .section-three button:hover {
@@ -206,7 +185,6 @@
 }
 
 /* --------Section Four Best Offer-------- */
-
 .section-four-flex {
     width: 1320px;
     display: flex;
@@ -237,7 +215,6 @@
     line-height: 32px;
     width: 393px;
     margin-top: 22px;
-
 }
 
 .section-four-ellipse {
@@ -276,7 +253,6 @@
 /* --------Section Six Best Gift-------- */
 .section-six {
     width: 1320px;
-    /* display: block; */
 }
 
 .section-six-title h6 {
@@ -320,7 +296,6 @@
 }
 
 /* --------Subscribe Section-------- */
-
 .subscribe-section {
     width: 1320px;
     height: 616px;
@@ -394,7 +369,6 @@ input[type=submit]:hover {
 
 
 /* --------Footer Section--------*/
-
 footer {
     width: 1600px;
     height: 609px;
@@ -429,8 +403,7 @@ hr {
     margin: 0 auto;
 }
 
-/* --------Footer Section Contact Details-------*/
-
+    /* --------Footer Section Contact Details-------*/
 .footer-contact-flex {
     display: flex;
 }
@@ -441,11 +414,9 @@ hr {
 
 #contact {
     padding: 120px 0px 50px 559px;
-
 }
 
-/* --------Footer Section Social Icon-------- */
-
+    /* --------Footer Section Social Icon-------- */
 .footer-section-icon {
     display: flex;
     justify-content: center;
@@ -462,8 +433,7 @@ hr {
     cursor: pointer;
 }
 
-/* --------Footer Section Copyright-------- */
-
+    /* --------Footer Section Copyright-------- */
 .footer-section-copyright {
     display: flex;
 }
