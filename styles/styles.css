@@ -248,7 +248,73 @@
 
 /* --------Section Five Holidays Sale-------- */
 
+.section-five {}
 
+.section-five-text h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.section-five-text h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.section-five-text h3>span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.section-five-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+    margin: 28px 126px 64px 126px;
+}
+
+
+.img2 {
+    position: absolute;
+    top: 3952px;
+}
+
+.img1 {
+    position: absolute;
+    top: 4029px;
+    left: 890px; 
+    margin: 0 0;
+}
+
+.img3 {
+    background-image: url('../images/Rectangle/Rectangle\ 1.png');
+    width: 429px;
+    height: 433px;
+    position: relative;
+    left: 890px;
+}
+
+.img4 {
+    background-image: url('../images/Rectangle/Rectangle\ 2.png ');
+    background-repeat: no-repeat;
+    height: 229px;
+    /* top: 100px;
+    left: 100px; */
+}
 
 /* --------Section Six Best Gift-------- */
 .section-six {
@@ -434,6 +500,7 @@ hr {
 }
 
     /* --------Footer Section Copyright-------- */
+
 .footer-section-copyright {
     display: flex;
 }
@@ -443,5 +510,7 @@ hr {
 }
 
 #unsubscribe {
-    padding: 50px 0px 0px 800px;
+    padding: 50px 0px 0px 720px;
 }
+
+
